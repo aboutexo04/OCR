@@ -48,5 +48,5 @@ data/
 Thumbs.db
 
 # Output
-submission.csv
+submission*.csv
 best_model.pth
