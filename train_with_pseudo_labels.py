@@ -59,11 +59,11 @@ class Config:
     RESIZE_TARGET = 1536
     BATCH_SIZE = 2
     ACCUMULATION_STEPS = 16
-    EPOCHS_STAGE1 = 30
-    LEARNING_RATE = 5e-5
+    EPOCHS_STAGE1 = 15   # Reduced from 30
+    LEARNING_RATE = 1e-4
 
     # Training Stage 3 (With Pseudo)
-    EPOCHS_STAGE3 = 20
+    EPOCHS_STAGE3 = 10   # Reduced from 20
     PSEUDO_WEIGHT = 0.5  # Weight for pseudo label loss
 
     # Inference
